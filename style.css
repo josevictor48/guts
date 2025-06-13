@@ -1,0 +1,74 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fb;
+  color: #222;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #2a4d7a;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+  color: #4169e1;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #2a4d7a;
+  text-decoration: underline;
+}
+
+/* Botões */
+button, .button {
+  background: #4169e1;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover, .button:hover {
+  background: #2a4d7a;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
